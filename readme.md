@@ -28,7 +28,7 @@ So in the last section, we said that we express the **time complexity** of a fun
 
 
 
-So the cost of answering whether a "b" is in "banana" on has a cost of 3, in our above function.  While it appears that the letter d is not in the string has a cost of nine (n + 3).  We call scenarios where the shortest amount of time is taken the **best case**, and times where the most amount of time is taken the **worst case**. 
+So the cost of answering whether a "b" is in "banana" on has a cost of 3, in our above function.  While it appears that the letter d is not in the string has a cost of nine (n * 3).  We call scenarios where the shortest amount of time is taken the **best case**, and times where the most amount of time is taken the **worst case**. 
 
 So should we choose the best case scenario, worst case scenario, or perhaps the average case when considering the performance of our function.  
 
