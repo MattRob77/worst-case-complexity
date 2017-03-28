@@ -34,8 +34,6 @@ So should we choose the best case scenario, worst case scenario, or perhaps the 
 
 ### Best, Average, worst?  Always Choose worst.
 
-![](http://www.telegraph.co.uk/content/dam/fashion/2016/03/24/GIRLS_CB_Ep409_7_2_14_331-small_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf1X_50byq9Ah3wJAV0YS_Ms.jpg)
-
 1. **Best Case** The best case scenario for our function, is to ask the question whether "b" is in the word "banana".  That is, the smallest amount of steps our function can perform is three, and that's the amount it performs in this case.  Now that we know this fact, let's just say that we never care about the best case scenario.
 	
 	Why, well, the best case of scenario of calculating anything for a computer is the same: fast enough that performance is not an issue.  For example, imagine we change our function to the following:
@@ -55,7 +53,7 @@ Assuming one is sitting next to you, our function would still be pretty performa
 
 3. **worst Case** hits the spot. 
 
-![alt worst thing](https://i.imgflip.com/nr38l.jpg)
+![alt worst thing](https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/worst-simpsons.jpg)
 
 So we didn't choose the best case because virtually all algorithms look good when you consider the best case.  And we didn't choose the average case because it can be difficult to calculate the average case.  The worst case scenario can be calculated without looking at streams of data.  And we also consider the worst case, because that is a scenario where it matters - we feel the pain in a worst case scenario.  Even if on average our website is good, if every 30 times our website takes a long time to load, our users become a little sadder.  So when evaluating how long it takes consider the worst case scenario.  Worst case scenario:
 
