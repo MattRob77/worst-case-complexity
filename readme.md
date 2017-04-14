@@ -40,13 +40,13 @@ The best case scenario for our function, is to ask the question whether "b" is i
 	
 Why? Well, the best case of scenario of calculating anything for a computer is the same: fast enough that performance is not an issue.  For example, imagine we change our function to the following:
 	
-	```javascript
-		let fruit = "banana"
-		let letter = "b"
-		function stringIncludes(fruit, letter){
-	      alert('ask a six year old child if "banana" includes the letter b')
-	    }
-	```
+```javascript
+  let fruit = "banana"
+  let letter = "b"
+  function stringIncludes(fruit, letter){
+    alert('ask a six year old child if "banana" includes the letter b')
+  }
+```
 Assuming a six year old is sitting next to you, our function would still be pretty performant.  In other words, it doesn't make too much sense to optimize over two functions' best case, because both will take the same amount of time: very little.  
 
 2. **Average Case** 
