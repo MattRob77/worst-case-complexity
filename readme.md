@@ -14,7 +14,7 @@ So in the last section, we said that we express the **time complexity** of a fun
     let matches;
     for(let i = 0; i < word.length; i++){
       if(word[i] === letter){
-        matches = true
+        return matches = true
       }
     }
     return !!matches
@@ -69,7 +69,7 @@ Worst case scenario:
 
 Or, from Wikipedia: 
 
-![](./worst-case.png)
+![](/worst-case.png)
 
 The worst our function could ever perform on the string "banana" is nine.  It must go through every letter, and three other operations.
 
@@ -78,7 +78,7 @@ The worst our function could ever perform on the string "banana" is nine.  It mu
     let matches;
     for(let i = 0; i < fruit.length; i++){
       if(fruit[i] === letter){
-        matches = true
+        return matches = true
       }
     }
     return !!matches
@@ -92,6 +92,6 @@ The worst our function could ever perform on the string "banana" is nine.  It mu
 
 Thus far, we have said that time complexity means the number of lines of code that run in the worst case scenario, where the worst case scenario is one where given an input of a certain size, our function takes as long as possible.  
 
-We can express the worst case scenario in terms of the size of the input.  So with our `stringIncludes` function, the worst case is when we have to go through every letter of the string, and then add three.  If we call the length of our input n, then we would say that the cost of our function is n + 2.
+We can express the worst case scenario in terms of the size of the input.  So with our `stringIncludes` function, the worst case is when we have to go through every letter of the string, and then add three.  If we call the length of our input n, then we would say that the cost of our function is n + 3.
 
 Alright, so we are almost finished with our discussion of time complexity.  We'll finish it up in the next section.
