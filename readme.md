@@ -36,7 +36,7 @@ So should we choose the best case scenario, worst case scenario, or perhaps the 
 
 1. **Best Case** 
 
-The best case scenario for our function, is to ask the question whether "b" is in the word "banana".  That is, the smallest amount of steps our function can perform is three, and that's the amount it performs in this case.  Now that we know this fact, let's just say that we never care about the best case scenario.
+The best case scenario for our function, is to ask the question whether "b" is in the word "banana".  That is, the fewest number of steps our function can perform is three, and that's the amount it performs in this case.  Now that we know this fact, let's just say that we never care about the best case scenario.
 	
 Why? Well, the best case of scenario of calculating anything for a computer is the same: fast enough that performance is not an issue.  For example, imagine we change our function to the following:
 	
@@ -95,3 +95,5 @@ Thus far, we have said that time complexity means the number of lines of code th
 We can express the worst case scenario in terms of the size of the input.  So with our `stringIncludes` function, the worst case is when we have to go through every letter of the string, and then add three.  If we call the length of our input n, then we would say that the cost of our function is n + 2.
 
 Alright, so we are almost finished with our discussion of time complexity.  We'll finish it up in the next section.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/worst-case-complexity'>Worst Case Complexity</a> on Learn.co and start learning to code for free.</p>
