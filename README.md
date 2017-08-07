@@ -69,7 +69,7 @@ Worst case scenario:
 
 Or, from Wikipedia: 
 
-![](/worst-case.png)
+![Worst case complexity](https://raw.githubusercontent.com/learn-co-curriculum/worst-case-complexity/master/worst-case.png)
 
 The worst our function could ever perform on the string "banana" is nine.  It must go through every letter, and three other operations.
 
