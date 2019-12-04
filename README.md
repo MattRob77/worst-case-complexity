@@ -7,7 +7,7 @@
 
 ### Introduction
 
-So in the last section, we said that we express the **time complexity** of a function in terms of the length of the input.  But we also noted that time our algorithm takes depends on whether or not there is a matching letter and the position of that matching letter.  
+So in the last section, we said that we express the **time complexity** of a function in terms of the length of the input.  But we also noted that the time our algorithm takes depends on whether or not there is a matching letter and the position of that matching letter.  
 
 ```javascript
   function stringIncludes(word, letter){
