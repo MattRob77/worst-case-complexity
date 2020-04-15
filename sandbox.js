@@ -21,6 +21,16 @@ function stringIncludes(fruit, letter) {
   alert('ask a six year old child if "banana" includes the letter b')
 }
 
+//sorting in alphabetical order
+
+function sortString(string) {
+  return string.split('').sort().join('')
+}
+sortString("banana")
+//"aaabnn"
+sortString("itwasthebestpftimesitwastheworseoftimes")
+//"aabeeeeeeffhhiiiimmooorsssssstttttttwww"
+
 
 
 stringIncludes("banana", "a")
