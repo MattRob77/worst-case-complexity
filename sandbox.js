@@ -13,6 +13,16 @@ function stringIncludes(word, letter) {
   return !!matches
 }
 
+//best case
+let fruit = "banana"
+let letter = "b"
+
+function stringIncludes(fruit, letter) {
+  alert('ask a six year old child if "banana" includes the letter b')
+}
+
+
+
 stringIncludes("banana", "a")
 //true
 stringIncludes("banana", "d")
