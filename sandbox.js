@@ -39,4 +39,35 @@ stringIncludes("banana", "d")
 //false
 
 
+//binarysearch
+function binarySearch(string, letter) {
+    var startpoint = 0
+    var endpoint = string.length - 1;
+    var guessPosition = parseInt((endpoint - startpoint)/2)
+    while (startpoint != endpoint) {
+      console.log(`start point is ${startpoint}, endpoint is ${endpoint} and guessposition is ${guessPosition}`)
+        if (string[guessPosition] < letter) {
+          console.log('too low')
+            startpoint = guessPosition
+            guessPosition = startpoint + Math.round((endpoint - startpoint)/2)
+        } else if(string[guessPosition] > letter) {
+          console.log('too high')
+            endpoint = guessPosition
+            guessPosition = startpoint + parseInt((endpoint - startpoint)/2)
+        } else {
+          console.log('just right')
+            return true;
+        }
+    }
+    if(string === letter){
+      return true
+    } else{
+      console.log('sorry')
+      return false;
+    }
+  }
+
+  let string = "aabeeeeeeffhhiiiimmooorsssssstttttttwww"
+ 
+
 //time complexity is expressed in terms of the length of the input. The second sentence about big O, coefficients, and lower order terms we'll talk about in the sections to come.
