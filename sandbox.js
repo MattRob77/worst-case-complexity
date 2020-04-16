@@ -68,6 +68,20 @@ function binarySearch(string, letter) {
   }
 
   let string = "aabeeeeeeffhhiiiimmooorsssssstttttttwww"
- 
+
+
+ //Big - O Approximation
+
+ function nSquared(string, letter) {
+   let matches;
+   for(let i = 0; i < string.length; i++) { //loop one
+     for(let i = 0; i < string.length; i++) { //loop two
+
+       ... //spread operator
+     }
+   }
+ }
+
+ nSquared("abc") //return function 
 
 //time complexity is expressed in terms of the length of the input. The second sentence about big O, coefficients, and lower order terms we'll talk about in the sections to come.
