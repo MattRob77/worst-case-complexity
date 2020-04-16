@@ -82,6 +82,19 @@ function binarySearch(string, letter) {
    }
  }
 
- nSquared("abc") //return function 
+ nSquared("abc") //return function
+
+ //n^3
+ function nCubed(string, letter){
+  let matches;
+  for(let i = 0; i < string.length; i++){ // loop 1
+    for(let i = 0; i < string.length; i++){ // loop 2
+        for(let i = 0; i < string.length; i++){ // loop 3
+          ... //spread operator
+        }
+    }
+  }
+}
+//to calculate the big O of a function if each loop forces you to go through your dataset n times, just count the number of nested loops.
 
 //time complexity is expressed in terms of the length of the input. The second sentence about big O, coefficients, and lower order terms we'll talk about in the sections to come.
